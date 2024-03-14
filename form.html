@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour</title>
+    <link rel = "stylesheet" href="form.css">
+</head>
+<body>
+    <h1 class="center">Tourism website</h1>
+    <h2>Add Tourists</h2>
+    <form name="tourist" method="POST">
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        </div>
+        
+        
+        <input type="button" value="Add Data" onClick="addTourist()">
+    </form>
+    <div class="Cen">
+        <h2>Tourist Details</h2>
+        <table id="tbl" class="table" border="1">
+            <thead>
+                <th>UserName</th>
+                <th>UserAge</th>
+            </thead>
+            
+        </table>
+        
+        
+    </div>
+    <div class="container">
+        <img src="https://tourismteacher.com/wp-content/uploads/2023/10/eu.jpg" class="slide" alt="">
+        <img src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_640.jpg" class="slide" alt="">
+        <img src="https://tourismteacher.com/wp-content/uploads/2023/10/eu.jpg" class="slide" alt="">
+    </div>
+    <br>
+    <div class="nav">
+        <button onClick="goPrev()">
+            prev
+        </button>
+        <button onClick="goNext()">next</button>
+    </div>
+    <video width="320" height="240" controls autoplay loop>  
+        <source src="" type="video/mp4">  
+         
+      </video>
+    <script src="app.js">
+       
+            
+    </script>
+</body>
+
+</html>
