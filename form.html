@@ -5,20 +5,21 @@
     <link rel = "stylesheet" href="form.css">
 </head>
 <body>
+   
     <h1 class="center">Tourism website</h1>
-    <h2>Add Tourists</h2>
-    <form name="tourist" method="POST">
-        <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+    <h2 class="h2">Add Tourists</h2>
+    <form name="tourist" method="POST" class="form">
+        <div >
+        <label for="name" class="input-label" ></label>
+        <input type="text" class="input" id="name" name="name" placeholder="Enter Name" required><br><br>
         </div>
         <div>
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required><br><br>
+        <label for="age"></label>
+        <input type="number" class="input" id="age" placeholder="Enter Age" name="age" required><br><br>
         </div>
         
         
-        <input type="button" value="Add Data" onClick="addTourist()">
+        <input type="button" class="add-button" value="Add Data" onClick="addTourist()">
     </form>
     <div class="Cen">
         <h2>Tourist Details</h2>
@@ -52,6 +53,7 @@
        
             
     </script>
+
 </body>
 
 </html>
