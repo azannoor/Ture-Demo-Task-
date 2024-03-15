@@ -103,3 +103,20 @@ for(let index in names){
 for(let name of names){
     console.log(name)
 }
+
+//switch statement
+
+let age1 = 22;
+
+switch(age1){
+    case 1:
+        age1: 12;
+        break;
+    case 2:
+        age1: 2;
+        break;
+    default:
+        age1 = "not found"
+        break;
+}
+console.log(`the value is ${age1}`)
